@@ -1,6 +1,8 @@
 version: '2'
 services:
   db:
+    volumes:
+       - "itf_data:/var/lib/mysql"
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: 1234
@@ -12,3 +14,5 @@ services:
       - db
     ports:
       - "8080:80"
+volumes:
+    itf_data:
