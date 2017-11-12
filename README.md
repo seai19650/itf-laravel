@@ -48,7 +48,7 @@ php artisan make:magration create_customers_database
 ```
 php artisan make:controller StudentController
 ```
-* สร้าง controller ขึ้นมา ชื่อ StudentController (จะชื่ออะไรก็ได้ครับ หลักการตั้งคือ _ชื่อที่อยากได้ ตัวแรกหัวใหญ่_Controller) 
+* สร้าง controller ขึ้นมา ชื่อ StudentController (จะชื่ออะไรก็ได้ครับ หลักการตั้งคือ _ชื่อที่อยากได้ตัวแรกตัวใหญ่_Controller) 
 
 ### Docker Way
 > สำหรับน้องที่ใช้ xampp แล้ว ข้ามส่วนนี้ไปครับบบบ
